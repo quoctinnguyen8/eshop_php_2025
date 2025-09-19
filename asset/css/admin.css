@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table,
+th,
+td {
+    border: 1px dashed gray;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td,
+th {
+    padding: 4px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.nav{
+    background-color: #dfdfdf;
+    margin-bottom: 10px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 14px 16px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(36, 137, 245);
+}
+.nav ul li a:hover{
+    color: rgb(0, 71, 170);
+}
